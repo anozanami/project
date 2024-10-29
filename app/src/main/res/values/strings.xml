@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">QQuiMZ</string>
+    <string name="title1">물의 끓는점</string>
+    <string name="detail1">물은 몇 도에서 끓을까요?
+(1기압 기준)</string>
+    <string name="category1">과학 상식</string>
+    <string name="correct1">오답</string>
 </resources>
