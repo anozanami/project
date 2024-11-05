@@ -32,7 +32,7 @@ android {
     viewBinding {
         enable = true
     }
-    buildFeatures{
+    buildFeatures {
         viewBinding = true
     }
 }

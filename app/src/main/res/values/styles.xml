@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~     Spruce
   ~
@@ -22,16 +21,21 @@
   -->
 
 <resources>
-    <color name="colorPrimary">#3BB894</color>
-    <color name="colorPrimaryDark">#2e7d32</color>
-    <color name="colorAccent">#8BC34A</color>
-    <color name="spruceViewColor">#4bc495</color>
-    <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
-    <color name="lighter_gray">#DDDDDD</color>
-    <color name="darker_gray">#939393</color>
-    <color name="recycler_background">#F8F8F9</color>
-    <color name="fake_paragraphs">#D9E1E2</color>
-    <color name="square_background">#DBE9F9</color>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LightToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
 
 </resources>
